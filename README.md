@@ -1,6 +1,6 @@
 # Strapi-fly
 
-Test project to check compatibility between Strapi(using Postgres in prod) and Fly.io.
+Test project to check compatibility between Strapi(using Postgres in prod and node v14) and Fly.io.
 DB connection string works with no build errors using this config 🥳
 
 # Fly.io commands
@@ -13,3 +13,4 @@ $fly deploy (to deploy app)
 ```
 
 - Set and expose port `3000`. (Fly.io's default now).
+-
