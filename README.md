@@ -13,4 +13,3 @@ $fly deploy (to deploy app)
 ```
 
 - Set and expose port `3000`. (Fly.io's default now).
-- Set `nvm` to use node v16+
