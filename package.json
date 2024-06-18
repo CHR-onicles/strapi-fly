@@ -1,38 +1,42 @@
 {
-  "name": "strapi-fly",
+  "name": "strapi-fly-2",
   "version": "0.1.0",
   "private": true,
   "description": "A Strapi application",
   "license": "MIT",
   "author": {
-    "name": "A Strapi developer"
+    "name": "Divine Anum"
   },
   "scripts": {
     "build": "strapi build",
+    "build:win": "cross-env NODE_ENV=production yarn run build",
+    "deploy": "strapi deploy",
     "dev": "strapi develop",
     "start": "strapi start",
+    "start:win": "cross-env NODE_ENV=production yarn start",
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-cloud": "4.20.4",
-    "@strapi/plugin-i18n": "4.20.4",
-    "@strapi/plugin-users-permissions": "4.20.4",
-    "@strapi/strapi": "4.20.4",
+    "@strapi/plugin-cloud": "4.25.0",
+    "@strapi/plugin-i18n": "4.25.0",
+    "@strapi/plugin-users-permissions": "4.25.0",
+    "@strapi/strapi": "4.25.0",
     "better-sqlite3": "8.6.0",
-    "pg": "^8.11.3",
+    "cross-env": "^7.0.3",
+    "pg": "^8.12.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "5.3.4",
     "styled-components": "5.3.3"
   },
   "devDependencies": {
-    "@flydotio/dockerfile": "^0.5.2"
+    "@flydotio/dockerfile": "^0.5.7"
   },
   "engines": {
     "node": ">=18.0.0 <=20.x.x",
     "npm": ">=6.0.0"
   },
   "strapi": {
-    "uuid": "bef832ab-7990-4878-ad35-d813af815a08"
+    "uuid": "3a05a7e8-9aea-4e62-b0e8-04366312744d"
   }
 }

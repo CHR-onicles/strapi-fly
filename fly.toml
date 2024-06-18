@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for strapi-fly on 2024-03-13T01:43:22Z
+# fly.toml app configuration file generated for strapi-fly-2 on 2024-06-16T17:20:17Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'strapi-fly'
+app = 'strapi-fly-2'
 primary_region = 'ams'
 
 [build]
@@ -21,6 +21,6 @@ primary_region = 'ams'
   processes = ['app']
 
 [[vm]]
-  memory = '1gb'
+  memory = '512mb'
   cpu_kind = 'shared'
   cpus = 1
